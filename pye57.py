@@ -13,15 +13,15 @@ assert isinstance(data["cartesianZ"], np.ndarray)
 
 # other attributes can be read using:
 data = e57.read_scan(0, intensity=True, colors=True, row_column=True)
-assert isinstance(data["cartesianX"], np.ndarray)
-assert isinstance(data["cartesianY"], np.ndarray)
-assert isinstance(data["cartesianZ"], np.ndarray)
-assert isinstance(data["intensity"], np.ndarray)
-assert isinstance(data["colorRed"], np.ndarray)
-assert isinstance(data["colorGreen"], np.ndarray)
-assert isinstance(data["colorBlue"], np.ndarray)
-assert isinstance(data["rowIndex"], np.ndarray)
-assert isinstance(data["columnIndex"], np.ndarray)
+# assert isinstance(data["cartesianX"], np.ndarray)
+# assert isinstance(data["cartesianY"], np.ndarray)
+# assert isinstance(data["cartesianZ"], np.ndarray)
+# assert isinstance(data["intensity"], np.ndarray)
+# assert isinstance(data["colorRed"], np.ndarray)
+# assert isinstance(data["colorGreen"], np.ndarray)
+# assert isinstance(data["colorBlue"], np.ndarray)
+# assert isinstance(data["rowIndex"], np.ndarray)
+# assert isinstance(data["columnIndex"], np.ndarray)
 
 # the 'read_scan' method filters points using the 'cartesianInvalidState' field
 # if you want to get everything as raw, untransformed data, use:
