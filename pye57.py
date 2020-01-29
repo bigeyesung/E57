@@ -53,3 +53,8 @@ root = imf.root()
 data3d = root["data3D"]
 scan_0 = data3d[0]
 translation_x = scan_0["pose"]["translation"]["x"]
+
+
+class E57toPCD:
+    def test(self):
+        print("test")
