@@ -56,8 +56,9 @@ translation_x = scan_0["pose"]["translation"]["x"]
 
 
 class E57toPCD:
-    def test(self):
-        print("test")
-
-    def init(self):
-        print("test")
+    def __init__(self):
+        print("init")
+    def toPCD(self):
+        print("pcd")
+    def toLAS(self):
+        print("las")
