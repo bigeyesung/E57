@@ -1,0 +1,3 @@
+/home/chenhsi/Projects/cmake_another/build/CMakeFiles/rebuild_cache.dir
+/home/chenhsi/Projects/cmake_another/build/CMakeFiles/MyExecutable.dir
+/home/chenhsi/Projects/cmake_another/build/CMakeFiles/edit_cache.dir
